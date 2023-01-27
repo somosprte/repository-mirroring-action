@@ -8,10 +8,13 @@ branding:
 inputs:
   ssh_private_key:
     description: "SSH private key for ssh connection to the target repository"
-    required: false
+    required: true
   ssh_public_key:
     description: "SSH public key for ssh connection to the target repository"
     required: false
+  target_branch_name:
+    description: "Target branch name"
+    required: true
   target_repo_url:
     description: "Target url"
     required: true
